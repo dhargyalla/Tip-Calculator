@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.openssh
     pkgs.python38Full
   ];
   env = {
